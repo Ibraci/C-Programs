@@ -1,4 +1,4 @@
-// C Program to accept an array of integers and delete the specified integer from the list
+// C Program to delete the specified integer from the list
 #include <stdio.h>
 
 int main()
