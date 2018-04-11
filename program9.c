@@ -1,3 +1,4 @@
+/* C program to demonstrate the working of circular queue using the arrays */
 #include <stdio.h>
 #define size 5
 
@@ -34,7 +35,7 @@ int main()
     } while (ch != 0);
 }
 
-
+// insert an item in the queue
 void insertq(int queue[], int item)
 {
     if ((front == 0 && rear == size - 1) || (front == rear + 1))
@@ -59,6 +60,7 @@ void insertq(int queue[], int item)
     queue[rear] = item;
 }
 
+// display all elements
 void display(int queue[])
 {
     int i;
@@ -79,6 +81,7 @@ void display(int queue[])
     }
 }
 
+// deleted an item in the queue
 void deleteq(int queue[])
 {
     if (front ==  - 1)
