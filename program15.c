@@ -6,7 +6,7 @@ int main()
     int vectorx[10];
     int i, n, pos, element, found = 0;
 
-    printf("Enter how many elements: ");
+    printf("Enter the size of the array: ");
     scanf("%d", &n);
     printf("Enter the elements:\n");
 
@@ -45,9 +45,7 @@ int main()
             printf("%d\t", vectorx[i]);
     }
     else
-        printf("Element %d is not found in the vector\t", element);
-
-    printf("\n");
+        printf("Element %d is not found in the vector\n", element);
 
     return 0;
 }

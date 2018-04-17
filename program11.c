@@ -10,9 +10,9 @@ int main()
     printf("Enter string to copy: ");
     scanf("%s", str1);
     copy(str1, str2, 0);
-    printf("Copying success.\n");
-    printf("The first string is: %s\n", str1);
-    printf("The second string is: %s\n", str2);
+    printf("Copying success!\n");
+    printf("The first string is: %s", str1);
+    printf("The second string is: %s", str2);
     return 0;
 }
 

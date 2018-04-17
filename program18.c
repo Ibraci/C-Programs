@@ -9,7 +9,7 @@ int main()
     int num;
     int result;
 
-    printf("Enter a number to find it's Factorial: ");
+    printf("Enter a number to find its Factorial: ");
     scanf("%d", &num);
 
     if (num < 0)

@@ -10,13 +10,13 @@ int main()
     int num;     /* element to search*/
     int position;
 
-    printf("Enter array elements:\n");
+    printf("Enter up to 5 elements of the array:\n");
     for(i = 0; i< 5; i++) {
         printf("[%d]: ",i);
         scanf("%d",&arr[i]);
     }
 
-    printf("\nNow enter element to search :");
+    printf("\nNow enter element to search: ");
     scanf("%d",&num);
 
     /* calling linearSearch function*/

@@ -1,10 +1,11 @@
-/* Singly Linked List Example - All Operations Example Program Using Functions in C*/  5
+/* Singly Linked List Example - All Operations Example Program Using Functions in C*/
 /* Data Structure Programs,C Linked List Examples */
 /* Singly Linked List Example - Insert,Delete,Display and Count Operations*/
 
 #include <stdio.h>
 #include <malloc.h>
 #include <stdlib.h>
+#include <ctype.h>
 
 struct node {
     int value;
@@ -63,7 +64,7 @@ void insert()
     printf("Enter Element for Insert Linked List: ");
     scanf("%d", &data);
 
-    temp_node = (DATA_NODE *) malloc(size of (DATA_NODE));
+    temp_node = (DATA_NODE*) malloc(sizeof(DATA_NODE));
 
     temp_node->value = data;
 
